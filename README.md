@@ -1,11 +1,18 @@
 # Python-Beginner-Labs
-## Lab-001
+## Lab-002  
 
-Using the given list, return a new list with all the elements that  
-- Are not of type string  
-- Have the digit '5'  
+Given a list of dictionaries, write a function that takes one parameter (list of users) and prints out each user along with their average score.  
 
-Example:  
+Example  
 
-List = [12.5, 'Hi there', 3]  
-The function returns [12.5]
+```python
+{
+
+'name': 'Mohsen',
+
+'notes': (1, 2, 3, 4, 5)
+
+}
+```
+
+The function should print out 'Mohsen: 3' (3 = 15/5)  
